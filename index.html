@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laços de Repetição For em Diferentes Linguagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Explorando Laços <code>for</code> em Diferentes Linguagens</h1>
+        
+        <div class="linguagem-card" id="javascript">
+            <h2>JavaScript</h2>
+            <div class="code-example">
+                <pre><code>for (let i = 0; i < 5; i++) {
+    console.log("Iteração:", i);
+}</code></pre>
+            </div>
+            <button onclick="executarCodigo('javascript')">Executar</button>
+            <div class="output" id="output-js"></div>
+        </div>
+
+        <div class="linguagem-card" id="python">
+            <h2>Python</h2>
+            <div class="code-example">
+                <pre><code>for i in range(5):
+    print("Iteração:", i)</code></pre>
+            </div>
+            <button onclick="executarCodigo('python')">Executar</button>
+            <div class="output" id="output-py"></div>
+        </div>
+
+        <div class="linguagem-card" id="php">
+            <h2>PHP</h2>
+            <div class="code-example">
+                <pre><code>for ($i = 0; $i < 5; $i++) {
+    echo "Iteração: " . $i . "\n";
+}</code></pre>
+            </div>
+            <button onclick="executarCodigo('php')">Executar</button>
+            <div class="output" id="output-php"></div>
+        </div>
+
+        <div class="linguagem-card" id="cpp">
+            <h2>C++</h2>
+            <div class="code-example">
+                <pre><code>for (int i = 0; i < 5; i++) {
+    cout << "Iteração: " << i << endl;
+}</code></pre>
+            </div>
+            <button onclick="executarCodigo('cpp')">Executar</button>
+            <div class="output" id="output-cpp"></div>
+        </div>
+
+        <div class="comparacao">
+            <h2>Comparação</h2>
+            <p>O laço <code>for</code> é uma estrutura comum em muitas linguagens de programação, mas com algumas diferenças:</p>
+            <ul>
+                <li><strong>JavaScript, PHP e C++</strong> usam uma sintaxe similar com três partes: inicialização, condição e incremento.</li>
+                <li><strong>Python</strong> usa uma abordagem mais simples com <code>range()</code> para gerar sequências.</li>
+                <li><strong>C++</strong> requer declaração de tipos explícita (<code>int i</code>).</li>
+                <li><strong>PHP</strong> usa o símbolo <code>$</code> para variáveis.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

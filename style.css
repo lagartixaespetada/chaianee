@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+.linguagem-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.code-example {
+    background: #f8f8f8;
+    border-left: 4px solid #3498db;
+    padding: 15px;
+    margin: 15px 0;
+    overflow-x: auto;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    color: #e74c3c;
+}
+
+button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+.output {
+    margin-top: 15px;
+    padding: 10px;
+    background: #e8f4fc;
+    border-radius: 4px;
+    min-height: 20px;
+    font-family: monospace;
+    white-space: pre;
+}
+
+.comparacao {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.comparacao ul {
+    padding-left: 20px;
+}
+
+.comparacao li {
+    margin-bottom: 10px;
+}
